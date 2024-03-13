@@ -21,7 +21,7 @@ Ketika Tombol-1 ditekan  sekali alert akan menampilkan pesan "Child Element : To
 ![Screenshot](assets/P_3.png)
 ![Screenshot](assets/P_3s.png)
 
-Dan ketika di klik untuk kedua kali alert akan menampilkan pesan "Child Element : Tombol-2" dan pesan "Parent Element : Div".  
+Dan ketika di klik di Tombol-2 alert akan menampilkan pesan "Child Element : Tombol-2" dan pesan "Parent Element : Div".  
 ![Screenshot](assets/P_32.png)
 ![Screenshot](assets/P_3s.png)   
 
