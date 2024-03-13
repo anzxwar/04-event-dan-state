@@ -25,4 +25,11 @@ Dan ketika di klik di Tombol-2 alert akan menampilkan pesan "Child Element : Tom
 ![Screenshot](assets/P_32.png)
 ![Screenshot](assets/P_3s.png)   
 
-Dan ketika kita menambahkan event stop propagation, alert hanya akan menampilkan pesan child element/komponen.
+Dan ketika kita menambahkan event stop propagation, alert hanya akan menampilkan pesan child element/komponen.   
+
+## Pratikum 4  
+
+Ketika tombol "artikel selanjutnya" ditekan maka halaman page akan berubah ke artikel berikutnya sesuai dengan urutan index di articel.tsx.  
+
+![Screenshot](assets/P_4.png)   
+![Screenshot](assets/P_42.png)   
