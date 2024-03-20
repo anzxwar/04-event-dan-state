@@ -33,3 +33,17 @@ Ketika tombol "artikel selanjutnya" ditekan maka halaman page akan berubah ke ar
 
 ![Screenshot](assets/P_4.png)   
 ![Screenshot](assets/P_42.png)   
+
+## Soal  
+1. Jika kita menekan tombol "Artikel Selanjutnya" sebanyak 5x (atau melebihi halaman total artikel), apa yang akan terjadi?  
+Jawab: Makan halaman page akan menampilkan error
+![Screenshot](assets/S1.png)   
+2. Modifikasilah gallery.tsx agar bisa meng-handle permasalahan tersebut.  
+Jawab: Dengan menambahkan function totalPage dan statemen 'if' pada fuction handelClick dimana button hanya aktif jika index page kurang dari index -1 dari total index.  
+![Screenshot](assets/S2.png)
+
+3. Tambahkan tombol "Artikel Sebelumnya", untuk menampilkan artikel secara mundur.   
+Jawab: 
+![Screenshot](assets/S3.png)
+
+

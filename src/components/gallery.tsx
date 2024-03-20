@@ -3,10 +3,17 @@ import { sculptureList } from "@/data/article";
 
 export default function Gallery() {
     const [index, setIndex] = useState(0);
+    const totalPages = 5 ;
 
     function handleClick() {
-        setIndex(index + 1);  // counter index + 1, utk melihat data selanjutnya
-    }
+        if (index < totalPages -1)  
+    { setIndex(index + 1); } // counter index + 1, utk melihat data selanjutnya
+    };
+
+    function backClick() {
+        if (index > 0)
+    { setIndex(index - 1); }  // counter index + 1, utk melihat data selanjutnya
+    };
 
     let sculpture = sculptureList[index];
 
@@ -17,8 +24,13 @@ export default function Gallery() {
                 className="bg-blue-500 hover:bg-blue-700 p-2 m-2 rounded">
                 Artikel Selanjutnya
             </button>
+            <button
+                onClick={backClick}
+                className="bg-blue-500 hover:bg-blue-700 p-2 m-2 rounded">
+                Artikel Sebelumnya
+            </button>
             <h2><i>{sculpture.name}</i> oleh {sculpture.artist} </h2>
-            <h3>({index + 1 } dari {sculpture.length}) </h3>
+            <h3>({index + 1 } dari {sculptureList.length}) </h3>
             <img src={sculpture.url} alt={sculpture.alt} />
             <p>
                 {sculpture.description}
