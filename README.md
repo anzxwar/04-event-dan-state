@@ -44,6 +44,24 @@ Jawab: Dengan menambahkan function totalPage dan statemen 'if' pada fuction hand
 
 3. Tambahkan tombol "Artikel Sebelumnya", untuk menampilkan artikel secara mundur.   
 Jawab: 
-![Screenshot](assets/S3.png)
+![Screenshot](assets/S3.png)    
 
+
+## Pratikum 5   
+
+Ketika dijalankan pada browses muncul form seperti gambar berikut:  
+![Screenshot](assets/P_5.png)  
+Ketika Jawaban Salah:    
+![Screenshot](assets/P_51.png)  
+Ketika Jawaban Benar:   
+![Screenshot](assets/P_52.png)  
+
+>Langkah 2 ketika dijalankan:
+![Screenshot](assets/P_53.png)  
+## Soal  
+1. Apa perbedaan dari fungsi Form_2 yang pertama dengan yang kedua?  
+Jawab: Output yang dihasilkan sama, perbedaan terdapat pada statement dan variable yang ada. Pada Form_2 pertama menggunakan state fullName, sedangkan pada Form_2 kedua menggunakan Variable
+
+2. Kenapa perlu menghapus state fullName? Apa keuntungannya?  
+Jawab: Karena state fullName hanya merupakan gabungan string dari state firstName dan lastName. Hal ini membuat state redundan, dan bisa membuat kesalahan/bug pada aplikasi react/nextjs. Untuk itu, state fullName bisa dihapus dan digantikan variable biasa.
 
